@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "vo1",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_estimation_3d2d::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_estimation_3d2d-Release-52ceaeb2bb05db73da1d.json",
+					"name" : "pose_estimation_3d2d",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pose_estimation_3d3d::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pose_estimation_3d3d-Release-34a5e3a70126abcce1c2.json",
+					"name" : "pose_estimation_3d3d",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yuyao/pipeline-slam/cmake-build-debug",
+		"source" : "/home/yuyao/pipeline-slam"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
